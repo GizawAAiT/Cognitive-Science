@@ -17,6 +17,7 @@ def get_website_content(url):
         else:
             print("Failed to retrieve content. Status code:", response.status_code)
             return None
+    
     except Exception as e:
         print("An error occurred:", str(e))
         return None
